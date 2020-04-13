@@ -1,0 +1,54 @@
+h1{
+color:Red;
+
+}
+h2{
+color: #173F5F;
+}
+.centered
+{
+text-align: center;
+justify-content: center;
+background-color: black;
+}
+
+.container1{
+background-color: black;
+background-size: cover;
+padding: 0px;
+}
+p{
+color: white;
+font-size: 40px;
+font-family: ariel;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  color: black;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+.row{
+background-color:black;
+
+}
+
+.gapp{
+	margin: 20px;
+	background-color: black;
+}
+button{
+background-color: black;
+
+}
